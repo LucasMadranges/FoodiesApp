@@ -1,12 +1,13 @@
 import style from "./page.module.css"
 import Link from "next/link";
+import ImageSlideshow from "@/components/images/image-slideshow";
 
 export default function Home() {
     return (
         <>
             <header className={style.header}>
                 <div className={style.slideshow}>
-
+                    <ImageSlideshow/>
                 </div>
                 <div>
                     <div className={style.hero}>
