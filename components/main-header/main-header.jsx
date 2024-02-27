@@ -12,7 +12,7 @@ export default function MainHeader() {
             <MainHeaderBackground/>
 
             <header className={style.header}>
-                <Link href="/public"
+                <Link href="/"
                       className={style.logo}>
                     <Image src={Logo.src}
                            alt="A place with food on it"
