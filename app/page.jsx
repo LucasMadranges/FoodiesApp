@@ -24,7 +24,8 @@ export default function Home() {
                 <section className={style.section}>
                     <h2>How it works</h2>
                     <p>
-                        NextLevel Food is a platform for foodies to share their favorite recipes with the wolrD. It's a
+                        NextLevel Food is a platform for foodies to share their favorite recipes with the world.
+                        It's a
                         place to discover new dishes, and to connect with other food lovers.
                     </p>
                     <p>
@@ -35,12 +36,3 @@ export default function Home() {
         </>
     );
 }
-
-/*<main>
-            <h1 style={{ color: 'white', textAlign: 'center' }}>
-                Time to get started!
-            </h1>
-            <p><Link href="/meals">Meals</Link></p>
-            <p><Link href="/meals/share">Share meal</Link></p>
-            <p><Link href="/community">Community</Link></p>
-        </main>*/

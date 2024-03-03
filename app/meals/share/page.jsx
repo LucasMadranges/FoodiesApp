@@ -20,7 +20,7 @@ export default function ShareMealPage() {
             </header>
             <main className={classes.main}>
                 <form className={classes.form}
-                      action={shareMeal}>
+                      action={formAction}>
                     <div className={classes.row}>
                         <p>
                             <label htmlFor="name">Your name</label>
