@@ -30,7 +30,7 @@ export default function Meal({params}) {
             <header className={style.header}>
                 <div className={style.image}>
                     <Image fill
-                           src={meal.image}
+                           src={`https://lucasmadranges-nextjs-demo-users-image.s3.eu-west-3.amazonaws.com/${meal.image}`}
                            alt={meal.title}/>
                 </div>
                 <div className={style.headerText}>
